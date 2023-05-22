@@ -1,0 +1,42 @@
+body {
+	background-color: #072657;
+}
+
+.login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 100px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+button {
+	color: white;
+	background-color: #4774d7;
+	border: none;
+	border-radius: 2px;
+	width: inherit;
+	height: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+input {
+	background-color: #051a3d;
+	border: none;
+	border-radius: 2px;
+	width: 400px;
+	height: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: white;
+}
